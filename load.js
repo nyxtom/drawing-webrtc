@@ -32,6 +32,7 @@ function setup() {
 
         let offset = 100;
         let tokens = parse(text);
+
         tokens.forEach(token => {
             if (token.code) {
                 offset += renderCode(token, offset);
@@ -42,6 +43,7 @@ function setup() {
     }
 
     function parse(lines) {
+
         let cur = [];
         let tokens = [];
         for (let i = 0; i < lines.length; i++) {
