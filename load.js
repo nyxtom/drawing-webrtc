@@ -29,6 +29,7 @@ function setup() {
 
     function draw() {
         context.clearRect(0, 0, window.innerWidth, window.innerHeight);
+
         let offset = 100;
         let tokens = parse(text);
         tokens.forEach(token => {
