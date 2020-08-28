@@ -27,6 +27,7 @@ function setup() {
 
     let text = [''];
 
+    //
     function draw() {
         context.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
