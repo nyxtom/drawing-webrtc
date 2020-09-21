@@ -1,5 +1,7 @@
 # Realtime Collaborative Drawing with WebRTC + Canvas
 
+![Realtime Collaborative Drawing Demo](https://nyxtom.dev/assets/yvkqiiemiincjtl0vd52.gif)
+
 This is the code for my series on [realtime collaborative drawing](https://nyxtom.dev/2020/09/05/collaborative-drawing-webrtc-canvas/). The code is outlined in the blog posts. The dependencies are straightforward and mostly for the express server to run the signaling server. All the client-side javascript is vanilla javascript and requires no bundling or external dependencies.
 
 ## Installation
