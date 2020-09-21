@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Let's Draw Together</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="alternate icon" type="image/png" href="/static/logo.png">
+    <link rel="icon" type="image/svg+xml" href="/static/logo.png">
+</head>
+<body>
+    <div class="flush vstack">
+        <div class="menubar hstack">
+            <a class="icon-link center">
+                <i class="ri-lg ri-landscape-line"></i>
+            </a>
+            <div class="spacer"></div>
+            <a class="icon-link active center" data-tool="pencil">
+                <i class="ri-lg ri-pencil-fill"></i>
+            </a>
+            <a class="icon-link center" data-tool="rect">
+                <i class="ri-lg ri-shape-line"></i>
+            </a>
+            <a class="icon-link center" data-tool="circle">
+                <i class="ri-lg ri-checkbox-blank-circle-line"></i>
+            </a>
+            <a class="icon-link center" data-tool="text">
+                <i class="ri-lg ri-font-size-2"></i>
+            </a>
+            <div class="spacer"></div>
+            <div class="relative">
+                <a class="icon-link center" data-color="#33ffff">
+                    <i class="ri-lg ri-palette-line"></i>
+                    <i class="ri-lg ri-checkbox-blank-fill center"></i>
+                </a>
+                <div id="color-picker" class="dropdown vstack">
+                </div>
+            </div>
+            <div class="spacer"></div>
+        </div>
+        <div class="spacer app">
+            <canvas></canvas>
+            <canvas class="active"></canvas>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/static/load.js"></script>
+    <script type="text/javascript" src="/static/draw.js"></script>
+</body>
+</html>
